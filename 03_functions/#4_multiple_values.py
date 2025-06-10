@@ -6,4 +6,5 @@ def circle(r):
     
     return _area, _circum
 
-print(circle(4))
+a, c = circle(3)
+print("Area: ", a, "Circumference: ", c)
